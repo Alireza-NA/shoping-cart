@@ -1,7 +1,13 @@
 import './App.css';
+
+// Context
+import ProductContextProvider from './context/ProductContextProvider';
+
 function App() {
   return (
-    <h1>Hi</h1>
+    <ProductContextProvider>
+        
+    </ProductContextProvider>
   );
 };
 
